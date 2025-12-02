@@ -2,7 +2,7 @@ local current_number = 50
 
 function get_rotations()
   print("getting rotations from day1.txt")
-  local file = io.open('day1.txt', 'r')
+  local file = io.open('inputs/day1.txt', 'r')
   io.input(file) -- sets default input file as day1.txt
 
   local rotations = {} -- store list of rotations from the input
